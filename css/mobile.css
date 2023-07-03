@@ -1,0 +1,93 @@
+@media screen and (max-width: 820px) and (min-width: 375px) {
+    /* HEADER */
+    .container-logo div:nth-child(1) {
+        padding: 30px;
+    }
+
+    .container-title h1{
+        font-size: 20px;
+    }
+
+    .container-title h3{
+        font-size: 16px;
+    }
+
+    .container-logo div:nth-child(2) li{
+        width: 166px;
+    }
+
+    .container-logo div:nth-child(2) a{
+        font-size: 14px;
+    }
+
+    /* MAIN */
+    body main section > div{
+        flex-direction: column;
+    }
+
+    body main div p:hover {
+        transform: scale(1.2);
+    }
+
+    /* FOOTER */
+    body footer .container-footer{
+        padding: 10px;
+    }
+
+    body footer .container-footer p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    /* HEADER */
+    .container-logo div:nth-child(1) {
+        padding: 20px;
+    }
+
+    .container-title h1{
+        font-size: 18px;
+    }
+
+    .container-title h3{
+        font-size: 14px;
+    }
+
+    .container-logo div:nth-child(2) li{
+        width: 140px;
+    }
+
+    .container-logo div:nth-child(2) a{
+        font-size: 10px;
+    }
+
+    /* MAIN */
+    body main section > div{
+        flex-direction: column;
+    }
+
+    body main div h1 {
+        font-size: 28px;
+    }
+
+    body main div p {
+        font-size: 10px;
+    }
+
+    body main div img {
+        width: 70%;
+    }
+
+    body main div p:hover {
+        transform: scale(1.2);
+    }
+
+    /* FOOTER */
+    body footer .container-footer{
+        padding: 10px;
+    }
+
+    body footer .container-footer p{
+        font-size: 10px;
+    }
+}

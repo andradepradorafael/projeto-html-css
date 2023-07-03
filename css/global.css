@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: url(https://pwe-semestre-1.000webhostapp.com/pwe/listas/final/img/header/fundo-header.png) no-repeat center bottom/cover;
+}
+
+body main section {
+    background-image: linear-gradient(to bottom, rgb(55, 17, 140), rgb(152, 48, 244));
+}
+
+footer {
+    background-color: black;
+}

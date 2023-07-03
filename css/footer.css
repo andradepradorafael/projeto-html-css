@@ -1,0 +1,16 @@
+.container-footer {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+}
+
+.container-footer p{
+    font-size: 24px;
+    color: white;
+    margin: 20px auto;
+}
+
+.container-footer p:hover::after{
+    content: " - Rafael Andrade Prado";
+}
